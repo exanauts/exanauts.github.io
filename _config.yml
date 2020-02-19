@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: [The Exanauts Team]
 description: [The Argonne team webpage for the Exascale Computing Project (ECP) ExaSGD]
-show_downloads: ["true"]
+show_downloads: ["false"]
