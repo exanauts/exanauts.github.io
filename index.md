@@ -7,3 +7,12 @@ Requirements:
 ```
 module load gcc/7.4.0
 ```
+## Team Members
+
+* Anitescu, Mihai
+* Kim, Kibaek
+* Kim, Youngdae
+* Maldonado, Adrian
+* Rao, Vishwas
+* Schanen, Michel
+* Subramanyam, Anirudh
