@@ -1,6 +1,8 @@
 ## Julia on Summit
 
-Custom Julia build for Summit at OLCF: [julia-1.3.1-linuxppc64le.tar.gz](https://www.mcs.anl.gov/~schanen/julia-1.3.1-linuxppc64le.tar.gz)
+Julia builds for Summit at OLCF 
+* [julia-1.3.1-linuxppc64le.tar.gz](https://www.mcs.anl.gov/~schanen/julia-1.3.1-linuxppc64le.tar.gz)
+* [julia-1.4.2-linuxppc64le.tar.gz](https://www.mcs.anl.gov/~schanen/julia-1.4.2-linuxppc64le.tar.gz)
 
 Requirements:
 
