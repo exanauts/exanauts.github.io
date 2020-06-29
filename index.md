@@ -23,6 +23,20 @@ PIPS is a suite of parallel optimization solvers mainly for stochastic optimizat
 
 Large-scale data sets for problems that were used in the [ARPA-E Grid Optimization](https://gocompetition.energy.gov/) competition.
 
+## Current Hardware
+
+# Moonshot
+
+Moonshot is our main development workstation
+
+* 2 Xeon Gold 6140 CPUs @ 2.30GHz
+* 2 NVDIDA GV100 32GB Volta GPUs
+* 512 GB RAM
+
+# Summit
+
+Supercomputer at Oak Ridge National Laboratories. This machine is on our path to the new exascale architectures which will come online in the coming years (Frontier and Aurora).
+A detailed description of its hardware can be found [here](https://www.olcf.ornl.gov/olcf-resources/compute-systems/summit/).
 
 ## Julia on Summit
 
