@@ -1,6 +1,6 @@
 # Exanauts
 
-We are loose team at the Mathematical and Computational Science division at the Argonne National Laboratory with common interests in solving energy systems related problems by leveraging the latest DOE provided computing hardware. This includes accelerators (e.g. GPUs), [Summit](https://www.olcf.ornl.gov/summit/) at OLCF, and future exascale systems [Frontier](https://www.olcf.ornl.gov/frontier/) and [Aurora](https://www.alcf.anl.gov/aurora). In order to prototype our methods we heavily rely on the programming lanuage [Julia](https://julialang.org/).
+We are a loose team at the Mathematical and Computational Science division at the Argonne National Laboratory with common interests in solving energy systems related problems by leveraging the latest DOE provided computing hardware. This includes accelerators (e.g. GPUs), [Summit](https://www.olcf.ornl.gov/summit/) at OLCF, and future exascale systems [Frontier](https://www.olcf.ornl.gov/frontier/) and [Aurora](https://www.alcf.anl.gov/aurora). In order to prototype our methods we heavily rely on the programming lanuage [Julia](https://julialang.org/).
 
 Our team covers a large area of expertise allowing us to have full control of the entire software stack compromising application, modeling, optimization methods, and linear algebra.
 
