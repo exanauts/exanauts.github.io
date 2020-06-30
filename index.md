@@ -61,6 +61,7 @@ module load gcc/7.4.0
 * Kim, Kibaek
 * Kim, Youngdae
 * Maldonado, Adrian
+* Pacaud, Fraçois
 * Rao, Vishwas
 * Schanen, Michel
 * Subramanyam, Anirudh
