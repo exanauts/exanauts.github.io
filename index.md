@@ -23,6 +23,10 @@ PIPS is a suite of parallel optimization solvers mainly for stochastic optimizat
 
 An ADMM-like proximal Augmented Lagrangian solver for tackling large-scale block-structured nonconvex optimization problems in a distributed manner. The latter includes security-constrained as well as multi-period AC optimal power flow problems.
 
+## [Simplex.jl](https://github.com/exanauts/Simplex.jl)
+
+This is the Julia implementation of a revised primal simplex method, which can run on CPU and GPU by exploiting the Julia multiple dispatch.
+
 ## GO-Data
 
 Large-scale data sets for problems that were used in the [ARPA-E Grid Optimization](https://gocompetition.energy.gov/) competition.
