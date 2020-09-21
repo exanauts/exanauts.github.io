@@ -19,7 +19,7 @@ A power flow solver running the Newton steps entirely on the GPU. This includes,
 
 PIPS is a suite of parallel optimization solvers mainly for stochastic optimization problems written in C++. Our most used solver is PIPS-NLP which implements the interior-point method similar to [Ipopt](https://github.com/coin-or/Ipopt). It uses sparse algebra kernels and the Schur complement to decompose the optimization problems. It is one of our solvers for security constrained optimal powerflow.
 
-## [ProxAL](https://github.com/exanauts/proxAL)
+## [ProxAL](https://github.com/exanauts/ProxAL)
 
 An ADMM-like proximal Augmented Lagrangian solver for tackling large-scale block-structured nonconvex optimization problems in a distributed manner. The latter includes security-constrained as well as multi-period AC optimal power flow problems.
 
