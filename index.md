@@ -52,6 +52,7 @@ These are Julia builds that are used on [Summit](https://www.olcf.ornl.gov/summi
 
 Julia builds for Summit at OLCF
 * [julia-1.5.3-linuxppc64le.tar.gz](https://www.mcs.anl.gov/~schanen/julia-1.5.3-linuxppc64le.tar.gz)
+* [julia-1.6.0-linuxppc64le.tar.gz](https://www.mcs.anl.gov/~schanen/julia-1.6.0-linuxppc64le.tar.gz)
 
 Requirements:
 
