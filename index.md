@@ -23,9 +23,9 @@ PIPS is a suite of parallel optimization solvers mainly for stochastic optimizat
 
 An ADMM-like proximal Augmented Lagrangian solver for tackling large-scale block-structured nonconvex optimization problems in a distributed manner. The latter includes security-constrained as well as multi-period AC optimal power flow problems.
 
-## [Simplex.jl](https://github.com/exanauts/Simplex.jl)
+## [ExaTron.jl](https://github.com/exanauts/ExaTron.jl)
 
-This is the Julia implementation of a revised primal simplex method, which can run on CPU and GPU by exploiting the Julia multiple dispatch.
+ExaTron is the Julia implementaion of novel GPU-accelerated algorithm for bound-constrained nonlinear nonconvex optimization problems. As a use case, this package also provides the implementation of adaptive ADMM for distributed ACOPF introduced by [Mhanna et al. (2019)](https://doi.org/10.1109/TPWRS.2018.2886344), running fully on GPUs without data transfer to the CPU, where `ExaTron.jl` is used to solve many small nonlinear nonconvex problems, each of which represents a branch subproblem of the ADMM.
 
 ## GO-Data
 
