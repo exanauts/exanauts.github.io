@@ -6,18 +6,10 @@ Our team covers a large area of expertise allowing us to have full control of th
 
 # Current Challenges
 
-* Overcome sparse algebra on GPUs for unstructured optimization problems.
+* Overcome sparse algebra limitations on GPUs for unstructured optimization problems.
 * Fast and higher-order derivatives on GPUs and other architectures.
 
 # Software Overview
-
-## [ExaPF.jl](https://github.com/exanauts/ExaPF.jl)
-
-A power flow solver running the Newton steps entirely on the GPU. This includes, the evaluation of the Jacobian using automatic differentiation, the optimization solver (Newton), the preconditioner (Block-Jacobi), and the linear solver (BICGSTAB).
-
-## [PIPS-NLP](https://github.com/Argonne-National-Laboratory/PIPS/)
-
-PIPS is a suite of parallel optimization solvers mainly for stochastic optimization problems written in C++. Our most used solver is PIPS-NLP which implements the interior-point method similar to [Ipopt](https://github.com/coin-or/Ipopt). It uses sparse algebra kernels and the Schur complement to decompose the optimization problems. It is one of our solvers for security constrained optimal powerflow.
 
 ## [ProxALjl](https://github.com/exanauts/ProxAL.jl)
 
@@ -26,6 +18,28 @@ An ADMM-like proximal Augmented Lagrangian solver for tackling large-scale block
 ## [ExaTron.jl](https://github.com/exanauts/ExaTron.jl)
 
 ExaTron is the Julia implementaion of novel GPU-accelerated algorithm for bound-constrained nonlinear nonconvex optimization problems. As a use case, this package also provides the implementation of adaptive ADMM for distributed ACOPF introduced by [Mhanna et al. (2019)](https://doi.org/10.1109/TPWRS.2018.2886344), running fully on GPUs without data transfer to the CPU, where `ExaTron.jl` is used to solve many small nonlinear nonconvex problems, each of which represents a branch subproblem of the ADMM.
+
+## [Argos.jl](https://github.com/exanauts/Argos.jl)
+
+Argos.jl extends [ExaPF.jl](https://github.com/exanauts/ExaPF.jl) by implementing the optimization routines required to solve the optimal power flow (OPF) problems.
+
+POC: Francois Pacaud
+
+## [ExaPF.jl](https://github.com/exanauts/ExaPF.jl)
+
+A power flow solver running the Newton steps entirely on the GPU. This includes, the evaluation of the Jacobian using automatic differentiation, the optimization solver (Newton), the preconditioner (Block-Jacobi), and the linear solver (BICGSTAB).
+
+## [ExaData](https://github.com/exanauts/ExaData)
+
+ExaData is collection of power grid network data we use in our project. It contains a script to create a Julia artifact such that our codes can use this data transparently.
+
+## [MadNLP]()
+
+MadNLP is a nonlinear programming (NLP) solver, purely implemented in Julia. MadNLP implements a filter line-search algorithm, as that used in Ipopt. MadNLP was developed at University of Madison.
+
+## [PIPS-NLP](https://github.com/Argonne-National-Laboratory/PIPS/)
+
+PIPS is a suite of parallel optimization solvers mainly for stochastic optimization problems written in C++. Our most used solver is PIPS-NLP which implements the interior-point method similar to [Ipopt](https://github.com/coin-or/Ipopt). It uses sparse algebra kernels and the Schur complement to decompose the optimization problems. It is one of our solvers for security constrained optimal powerflow.
 
 ## GO-Data
 
@@ -48,24 +62,19 @@ A detailed description of its hardware can be found [here](https://www.olcf.ornl
 
 # Julia on Summit
 
-These are Julia builds that are used on [Summit](https://www.olcf.ornl.gov/summit/) in our ECP project ExaSGD.
-
 Julia builds for Summit at OLCF
-* [julia-1.5.3-linuxppc64le.tar.gz](https://www.mcs.anl.gov/~schanen/julia-1.5.3-linuxppc64le.tar.gz)
-* [julia-1.6.0-linuxppc64le.tar.gz](https://www.mcs.anl.gov/~schanen/julia-1.6.0-linuxppc64le.tar.gz)
+* [julia-1.7.0-linuxppc64le.tar.gz](https://web.cels.anl.gov/~mschanen/julia-1.7.0-linuxppc64le.tar.gz)
 
-Requirements:
-
-```
-module load gcc/7.4.0
-```
 # Team Members
 
 * Anitescu, Mihai
+* Churavy, Valentin (MIT/Julia Lab)
 * Kim, Kibaek
 * Kim, Youngdae
 * Maldonado, Adrian
 * Pacaud, François
 * Rao, Vishwas
+* Samaroo, Julian (MIT/Julia Lab)
 * Schanen, Michel
+* Shin, Sungho
 * Subramanyam, Anirudh
