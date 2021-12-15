@@ -23,8 +23,6 @@ ExaTron is the Julia implementaion of novel GPU-accelerated algorithm for bound-
 
 Argos.jl extends [ExaPF.jl](https://github.com/exanauts/ExaPF.jl) by implementing the optimization routines required to solve the optimal power flow (OPF) problems.
 
-POC: Francois Pacaud
-
 ## [ExaPF.jl](https://github.com/exanauts/ExaPF.jl)
 
 A power flow solver running the Newton steps entirely on the GPU. This includes, the evaluation of the Jacobian using automatic differentiation, the optimization solver (Newton), the preconditioner (Block-Jacobi), and the linear solver (BICGSTAB).
@@ -35,7 +33,7 @@ ExaData is collection of power grid network data we use in our project. It conta
 
 ## [MadNLP]()
 
-MadNLP is a nonlinear programming (NLP) solver, purely implemented in Julia. MadNLP implements a filter line-search algorithm, as that used in Ipopt. MadNLP was developed at University of Madison.
+MadNLP is a nonlinear programming (NLP) solver, purely implemented in Julia. MadNLP implements a filter line-search algorithm, as that used in [Ipopt](https://github.com/coin-or/Ipopt). MadNLP was initially developed at University of Madison.
 
 ## [PIPS-NLP](https://github.com/Argonne-National-Laboratory/PIPS/)
 
