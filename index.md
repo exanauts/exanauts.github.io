@@ -61,7 +61,7 @@ A detailed description of its hardware can be found [here](https://www.olcf.ornl
 # Julia on Summit
 
 Julia builds for Summit at OLCF
-* [julia-1.7.0-linuxppc64le.tar.gz](https://web.cels.anl.gov/~mschanen/julia-1.7.0-linuxppc64le.tar.gz)
+* [julia-1.7.1-linuxppc64le.tar.gz](https://web.cels.anl.gov/~mschanen/julia-1.7.1-linuxppc64le.tar.gz)
 
 # Team Members
 
