@@ -29,7 +29,7 @@ News](http://wiki.siam.org/siag-op/images/siag-op/e/e8/ViewsAndNews-29-1.pdf).
 
 # Software Overview
 
-## [ProxALjl](https://github.com/exanauts/ProxAL.jl)
+## [ProxAL.jl](https://github.com/exanauts/ProxAL.jl)
 
 An ADMM-like proximal Augmented Lagrangian solver for tackling large-scale
 block-structured nonconvex optimization problems in a distributed manner. The
@@ -66,13 +66,13 @@ the evaluation of the Jacobian using automatic differentiation, the optimization
 solver (Newton), the preconditioner (Block-Jacobi), and the linear solver
 (BICGSTAB).
 
-## [ExaData]
+## [ExaData](https://github.com/exanauts/ExaData)
 
 ExaData is a collection of power grid network data we use in our project. It
 contains a script to create a Julia artifact such that our codes can use this
 data transparently.
 
-## [MadNLP](https://github.com/MadNLP/MadNLP.jl)
+## [MadNLP.jl](https://github.com/MadNLP/MadNLP.jl)
 
 MadNLP is a nonlinear programming (NLP) solver, purely implemented in Julia.
 MadNLP implements a filter line-search algorithm, as that used in
