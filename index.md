@@ -1,7 +1,7 @@
 # Exanauts
 
 We are a loose team that started at the Mathematical and Computational Science
-`Division at the Argonne National Laboratory with common interests in solving
+Division at the Argonne National Laboratory with common interests in solving
 energy systems-related problems in the [Exascale Computing
 Project](https://www.exascaleproject.org/)
 [ExaSGD](https://www.exascaleproject.org/research-project/exasgd/). by
@@ -10,7 +10,8 @@ programming language [Julia](https://julialang.org/). This includes accelerators
 (e.g. GPUs), [Summit](https://www.olcf.ornl.gov/summit/) at OLCF, and future
 exascale systems [Frontier](https://www.olcf.ornl.gov/frontier/) and
 [Aurora](https://www.alcf.anl.gov/aurora). In order to prototype our methods, we
-heavily rely on Julia, [KernelAbstractions.jl],
+heavily rely on Julia,
+[KernelAbstractions.jl](https://github.com/JuliaGPU/KernelAbstractions.jl),
 [CUDA.jl](https://github.com/JuliaGPU/CUDA.jl),
 [AMDGPU.jl](https://github.com/JuliaGPU/AMDGPU.jl), and
 [oneAPI.jl](https://github.com/JuliaGPU/oneAPI.jl).
