@@ -4,20 +4,20 @@ We are a loose team that started at the Mathematical and Computational Science
 Division at the Argonne National Laboratory with common interests in solving
 energy systems-related problems in the [Exascale Computing
 Project](https://www.exascaleproject.org/)
-[ExaSGD](https://www.exascaleproject.org/research-project/exasgd/). by
-leveraging the latest DOE provided computing hardware with a passion for the
+[ExaSGD](https://www.exascaleproject.org/research-project/exasgd/) by
+leveraging the latest DOE-provided computing hardware with a passion for the
 programming language [Julia](https://julialang.org/). This includes accelerators
 (e.g. GPUs), [Summit](https://www.olcf.ornl.gov/summit/) at OLCF, and future
 exascale systems [Frontier](https://www.olcf.ornl.gov/frontier/) and
-[Aurora](https://www.alcf.anl.gov/aurora). In order to prototype our methods, we
+[Aurora](https://www.alcf.anl.gov/aurora). To prototype our methods, we
 heavily rely on Julia,
 [KernelAbstractions.jl](https://github.com/JuliaGPU/KernelAbstractions.jl),
 [CUDA.jl](https://github.com/JuliaGPU/CUDA.jl),
 [AMDGPU.jl](https://github.com/JuliaGPU/AMDGPU.jl), and
 [oneAPI.jl](https://github.com/JuliaGPU/oneAPI.jl).
 
-Our team covers a large area of expertise, allowing us to have full control of
-the entire software stack, compromising application, modeling, optimization
+Our team covers a large area of expertise, allowing us to fully control the
+entire software stack, compromising application, modeling, optimization
 methods, and linear algebra.
 
 Our adventure was recently published in [SIAG/OPT Views and
@@ -86,8 +86,8 @@ PIPS is a suite of parallel optimization solvers mainly for stochastic
 optimization problems written in C++. Our most used solver is PIPS-NLP which
 implements the interior-point method similar to
 [Ipopt](https://github.com/coin-or/Ipopt). It uses sparse algebra kernels and
-the Schur complement to decompose the optimization problems. It is one of our
-solvers for security constrained optimal powerflow.
+the Schur complement to decompose the optimization problems. It is one of
+our solvers for security-constrained optimal powerflow.
 
 # Current Hardware
 
