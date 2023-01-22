@@ -116,11 +116,14 @@ Julia builds for Summit at OLCF
 * Anitescu, Mihai
 * Churavy, Valentin (MIT/Julia Lab)
 * Kim, Kibaek
-* Kim, Youngdae
 * Maldonado, Adrian
 * Pacaud, François
 * Rao, Vishwas
 * Samaroo, Julian (MIT/Julia Lab)
 * Schanen, Michel
 * Shin, Sungho
-* Subramanyam, Anirudh
+* Subramanyam, Anirudh (Penn State)
+
+# Past Team Members
+
+* Kim, Youngdae (Research Associate at ExxonMobil)
