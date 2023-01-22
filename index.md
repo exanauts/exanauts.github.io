@@ -99,8 +99,17 @@ Moonshot is our main development workstation
 * 2 NVDIDA GV100 32GB Volta GPUs
 * 512 GB RAM
 
-## Summit
+## Frontier
 
+Our code is being tested on the latest exascale system Frontier (OLCF).
+
+## Intel GPUs
+
+Our code is being tested on various testbed systems at Argonne National Laboratory.
+## Polaris
+
+The current system for the CUDA backend is the pre-Aurora system Polaris (ALCF) with A100 GPUs.
+## Summit
 Summit is a supercomputer at Oak Ridge National Laboratories. This machine is on
 our path to the new exascale architectures, which will come online in the coming
 years (Frontier and Aurora). A detailed description of its hardware can be found
