@@ -17,7 +17,7 @@ heavily rely on Julia,
 [oneAPI.jl](https://github.com/JuliaGPU/oneAPI.jl).
 
 Our team covers a large area of expertise, allowing us to fully control the
-entire software stack, compromising application, modeling, optimization
+entire software stack, consisting of application, modeling, optimization
 methods, and linear algebra.
 
 Our adventure was recently published in [SIAG/OPT Views and
