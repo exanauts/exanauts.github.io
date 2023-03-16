@@ -136,3 +136,22 @@ Julia builds for Summit at OLCF
 # Past Team Members
 
 * Kim, Youngdae (Research Associate at ExxonMobil)
+
+# References
+
+* Anitescu, M., D. A. Maldonado, F. Pacaud, K. Kim, Y. Kim, V. Rao, M. Schanen, S. Shin, and A. Subramanyam. 2022. Targeting Exascale with Julia on GPUs for multiperiod optimization with scenario constraints. Vol. 29. SIAG-OP News and Views. http://wiki.siam.org/siag-op/images/siag-op/e/e8/ViewsAndNews-29-1.pdf.
+* Cole, David, Sungho Shin, François Pacaud, Victor M. Zavala, and Mihai Anitescu. 2022. "Exploiting GPU/SIMD Architectures for Solving Linear-Quadratic MPC Problems." arXiv preprint arXiv:2209.13049.
+Dandurand, Brian, Kibaek Kim, and Michel Schanen. 2020. "Toward a scalable robust security-constrained optimal power flow using a proximal projection bundle method." Electric Power Systems Research (Elsevier) 189: 106681. doi:10.1016/j.epsr.2020.106681.
+* Kim, Youngdae, and Kibaek Kim. 2022. "Accelerated Computation and Tracking of AC Optimal Power Flow Solutions Using GPUs." Workshop Proceedings of the 51st International Conference on Parallel Processing. 1–8. doi:10.1145/3547276.3548631.
+* Kim, Youngdae, François Pacaud, Kibaek Kim, and Mihai Anitescu. 2021. "Leveraging GPU batching for scalable nonlinear programming through massive Lagrangian decomposition." arXiv preprint arXiv:2106.14995.
+* Maldonado, Daniel Adrian, Michel Schanen, François Pacaud, and Mihai Anitescu. 2021. "Domain Decomposition Preconditioners for Unstructured Network Problems in Parallel Vector Architectures." 50th International Conference on Parallel Processing Workshop. 1–5. doi:10.1145/3458744.3473363.
+* Pacaud, François, Daniel Adrian Maldonado, Sungho Shin, Michel Schanen, and Mihai Anitescu. 2022. "A feasible reduced space method for real-time optimal power flow." Electric Power Systems Research (Elsevier) 212: 108268. doi:10.1016/j.epsr.2022.108268.
+* Pacaud, François, Michel Schanen, Daniel Adrian Maldonado, Alexis Montoison, Valentin Churavy, Julian Samaroo, and Mihai Anitescu. 2022. "Batched second-order adjoint sensitivity for reduced space methods." Proceedings of the 2022 SIAM Conference on Parallel Processing for Scientific Computing. 60–71. doi:10.1137/1.9781611977141.6.
+* Pacaud, François, Michel Schanen, Sungho Shin, Daniel Adrian Maldonado, and Mihai Anitescu. 2023. "Parallel Interior-Point Solver for Block-Structured Nonlinear Programs on SIMD/GPU Architectures." arXiv preprint arXiv:2301.04869.
+* Pacaud, François, Sungho Shin, Michel Schanen, Daniel Adrian Maldonado, and Mihai Anitescu. 2022. "Condensed interior-point methods: porting reduced-space approaches on GPU hardware." arXiv preprint arXiv:2203.11875.
+* Rao, Vishwas, Anirudh Subramanyam, Michel Schanen, Youngdae Kim, Ignas Satkauskas, and Mihai Anitescu. 2022. "Frequency Recovery in Power Grids using High-Performance Computing." Workshop Proceedings of the 51st International Conference on Parallel Processing. 1–6. doi:10.1145/3547276.3548632.
+* Rao, Vishwas, Kibaek Kim, Michel Schanen, Daniel A. Maldonado, Cosmin Petra, and Mihai Anitescu. 2019. "A Multiperiod Optimization-Based Metric of Grid Resilience." 2019 IEEE Power & Energy Society General Meeting (PESGM). 1–5. doi:10.1109/pesgm40551.2019.8974137.
+* Schanen, Michel, Daniel Adrian Maldonado, François Pacaud, Alexis Montoison, Mihai Anitescu, Kibaek Kim, Youngdae Kim, Vishwas Rao, and Anirudh Subramanyam. 2020. "Julia as a portable high-level language for numerical solvers of power flow equations on GPU architectures." Les Cahiers du GERAD ISSN 711: 2440.
+* Subramanyam, Anirudh, Youngdae Kim, Michel Schanen, François Pacaud, and Mihai Anitescu. 2021. "A Globally Convergent Distributed Jacobi Scheme for Block-Structured Nonconvex Constrained Optimization Problems." arXiv preprint arXiv:2112.09027.
+
+
