@@ -9,9 +9,9 @@ harness the power of cutting-edge DOE computing resources. Driven by our
 enthusiasm for the [Julia](https://julialang.org/) programming language, we
 embark on developing
 innovative solutions for today’s energy problems. Discover more about our
-ECP demonstration project [here](ecp_demonstration.md).
+[ECP demonstration project](#ecp-demonstration).
 
-[Our team](#section-team-members) covers a broad spectrum of expertise, allowing
+[Our team](#Team-Members) covers a broad spectrum of expertise, allowing
 us to oversee the entire software design, consisting of application, modeling,
 optimization methods, and linear algebra.
 
@@ -39,8 +39,8 @@ energy systems. Our work facilitates the transition to a more sustainable and
 efficient energy landscape.
 
 #### Software Contributions
-* [ExaModels](https://github.com/exanauts/ExaModels.jl)
-* Multiperiod security-contrained optimal powerflow: [Milepost7.jl](https://github.com/exanauts/Milepost7.jl)
+* Fast GPU modeling for optimal powerflow: [ExaModels.jl](https://github.com/exanauts/ExaModels.jl)
+* Multiperiod security-constrained optimal powerflow: [Milepost7.jl](https://github.com/exanauts/Milepost7.jl)
 
 
 ### Differentiable Sparse Linear Solvers on GPUs
@@ -64,8 +64,24 @@ revolutionize how these problems are approached and solved.
 * Adaptive ADMM for distributed ACOPF: [ExaAdmm.jl](https://github.com/exanauts/ExaAdmm.jl)
 * A power flow solver with GPU support: [ExaPF.jl](https://github.com/exanauts/ExaPF.jl)
 
+## ECP Demonstration
+Our ECP demonstration project involved a multiperiod security-constrained optimal power flow simulation modeled entirely in Julia. We used pure Julia numerical solvers that leveraged Julia's flexibility to run on GPU architectures and ECP systems. This included
+[Summit](https://www.olcf.ornl.gov/summit/) at OLCF, [Frontier](https://www.olcf.ornl.gov/frontier/), and
+[Aurora](https://www.alcf.anl.gov/aurora). To implement our methods, we
+heavily relied on the Julia packages
+[KernelAbstractions.jl](https://github.com/JuliaGPU/KernelAbstractions.jl),
+[CUDA.jl](https://github.com/JuliaGPU/CUDA.jl),
+[AMDGPU.jl](https://github.com/JuliaGPU/AMDGPU.jl), and
+[oneAPI.jl](https://github.com/JuliaGPU/oneAPI.jl).
+
+The entire code base of our ECP demonstration Milepost7 can be found at [Milepost7.jl](https://github.com/exanauts/Milepost7.jl).
+
+
+Our adventure was published in [SIAG/OPT Views and
+News](http://wiki.siam.org/siag-op/images/siag-op/e/e8/ViewsAndNews-29-1.pdf) and is summarized by the following highlights.
+
+![Highlights](/highlights.png "Highlights")
 # Team Members
-`#section-team-members`
 * Anitescu, Mihai
 * Kim, Kibaek
 * Maldonado, Adrian
