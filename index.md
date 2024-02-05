@@ -92,8 +92,11 @@ News](http://wiki.siam.org/siag-op/images/siag-op/e/e8/ViewsAndNews-29-1.pdf) an
 * Shin, Sungho
 * Subramanyam, Anirudh (Penn State)
 
-## Past Team Members
+## Ongoing Collaborations
+* Edelman, Alan (MIT/Julia Lab)
+* Zavala, Victor (University of Wisconsin-Madison)
 
+## Past Team Members
 * Churavy, Valentin (MIT/Julia Lab)
 * Kim, Youngdae (Research Associate at ExxonMobil)
 * Samaroo, Julian (MIT/Julia Lab)
