@@ -49,6 +49,7 @@ We develop and enhance differentiable sparse linear solvers on GPUs available in
 #### Software Contributions
 * Interface to CUDSS: [CUDSS.jl](https://github.com/exanauts/CUDSS.jl)
 * Fast refactorization for Schur-complement: [CUSOLVERRF.jl](https://github.com/exanauts/CUSOLVERRF.jl)
+* Polymorphic Krylov solvers: [Krylov.jl](https://github.com/JuliaSmoothOptimizers/Krylov.jl/)
 * GPU preconditioners: [KrylovPreconditioners.jl](https://github.com/JuliaSmoothOptimizers/KrylovPreconditioners.jl/)
 * Differentiable Krylov methods: [DiffKrylov.jl](https://github.com/JuliaSmoothOptimizers/DiffKrylov.jl)
 
