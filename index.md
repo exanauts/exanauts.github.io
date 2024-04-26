@@ -39,7 +39,7 @@ energy systems. Our work facilitates the transition to a more sustainable and
 efficient energy landscape.
 
 #### Software Contributions
-* Fast GPU modeling for optimal powerflow: [ExaModels.jl](https://github.com/exanauts/ExaModels.jl)
+* Fast GPU modeling for sparse, large-scale nonlinear programs: [ExaModels.jl](https://github.com/exanauts/ExaModels.jl)
 * Multiperiod security-constrained optimal powerflow: [Milepost7.jl](https://github.com/exanauts/Milepost7.jl)
 
 
@@ -59,7 +59,7 @@ systems, we are at the forefront of formulating and implementing novel
 algorithms and software. Our focus is on harnessing GPU capabilities to
 revolutionize how these problems are approached and solved.
 #### Software Contributions
-* Ipopt inspired interior-point solver with GPU support: [MadNLP.jl](https://github.com/MadNLP/MadNLP.jl)
+* Nonlinear optimization solver running on CPU/GPU: [MadNLP.jl](https://github.com/MadNLP/MadNLP.jl)
 * Trust-region Newton solver for batched nonlinear programming on GPUs: [ExaTron.jl](https://github.com/exanauts/ExaTron.jl)
 * Batched second-order adjoint sensitivity for reduced space methods: [Argos.jl](https://github.com/exanauts/Argos.jl)
 * Adaptive ADMM for distributed ACOPF: [ExaAdmm.jl](https://github.com/exanauts/ExaAdmm.jl)
